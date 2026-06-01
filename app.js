@@ -1,10 +1,13 @@
-let color="yellow";
-if(color==="red"){
- console.log("stop");
+let mark=75;
+if(mark>=80){
+    console.log("A+");
 }
-if(color==="yellow"){
- console.log("slow down");
+else if(mark>=60){
+    console.log("A");
 }
-if(color==="green"){
- console.log("go");
+else if(mark>=33){
+    console.log("B");
+}
+else if(mark<33){
+    console.log("Fail");
 }
